@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=9ee01db0-376f-42a7-8a70-eea0a404b3c8
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+    <<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Delhi Duggar Student Association | DDSA</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Official website of the Delhi Duggar Student Association (DDSA). Promoting the rich culture of Jammu & Himachal Pradesh and supporting students in Delhi. Explore our achievements, cultural heritage, and student welfare hub.">
+    <meta name="keywords" content="DDSA, Delhi Duggar Student Association, Jammu, Himachal Pradesh, Dogra Culture, Duggar, Student Association Delhi, Himmilan, Bharat Mandapam, Dogra Community Connect">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Sticky Header / Navbar (Centered Logo Layout) -->
+    <header class="main-header" id="header">
+        <div class="nav-container centered-nav">
+            
+            <!-- Left Side Ministry Logo (Upgraded Size) -->
+            <div class="header-side-logo left-logo">
+                <img src="assets/logo_youth_affairs.jpg" alt="Ministry of Youth Affairs Logo" class="support-logo-header mof-logo-hdr" title="Supported by Ministry of Youth Affairs and Sports">
+            </div>
+            
+            <!-- Centered Brand Logo and Title -->
+            <div class="logo-area center-logo-area">
+                <a href="#hero" class="brand-link centered-brand-link">
+                    <img src="assets/logo_ddsa.jpg" alt="DDSA Logo" class="brand-logo centered-brand-logo" id="logo-ddsa">
+                    <div class="brand-text centered-brand-text">
+                        <span class="brand-name">DDSA</span>
+                        <span class="brand-tagline">Delhi Duggar Student Association</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Right Side MY Bharat Logo (Upgraded Size) -->
+            <div class="header-side-logo right-logo">
+                <img src="assets/logo_my_bharat.jpg" alt="MY Bharat Logo" class="support-logo-header myb-logo-hdr" title="MY Bharat (Mera Yuva Bharat)">
+            </div>
+
+            <!-- Hamburger Button for Mobile -->
+            <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        
+        <!-- Navigation links row below centered logo -->
+        <div class="nav-links-row">
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">Our Roots</a></li>
+                    <li><a href="#achievements" class="nav-link">Glory & Achievements</a></li>
+                    <li><a href="#impact" class="nav-link">Social Impact</a></li>
+                    <li><a href="#portal-hub" class="nav-link">Interactive Hub</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#support" class="nav-link">Student Welfare</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section (Jammu & Himachal Maps split-screen background) -->
+    <section class="hero-section" id="hero">
+        
+        <!-- Double Map split-screen background layout -->
+        <div class="hero-map-background">
+            <div class="map-bg-pane jammu-map-bg" style="background-image: url('assets/img_jammu_map.jpg');"></div>
+            <div class="map-bg-pane himachal-map-bg" style="background-image: url('assets/img_himachal_map.png');"></div>
+            <div class="map-bg-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="glass-hero-card centered-hero-card">
+                
+                <!-- Centered Logo alignment row inside Hero (Ministry of Youth Affairs is upgraded) -->
+                <div class="hero-logo-lineup">
+                    <img src="assets/logo_youth_affairs.jpg" alt="Ministry of Youth Affairs" class="hero-flank-logo mof-logo">
+                    <img src="assets/logo_ddsa.jpg" alt="DDSA Central Logo" class="hero-center-logo">
+                    <img src="assets/logo_my_bharat.jpg" alt="MY Bharat" class="hero-flank-logo myb-logo">
+                </div>
+
+                <div class="badge-row centered">
+                    <span class="badge-pill gold-badge"><i class="fa-solid fa-mountain"></i> Jammu & Kashmir (Duggar)</span>
+                    <span class="badge-pill red-badge"><i class="fa-solid fa-mountain-sun"></i> Himachal Pradesh (Dev Bhumi)</span>
+                </div>
+                
+                <h1 class="hero-title">DELHI DUGGAR STUDENTS ASSOCIATION</h1>
+                <p class="hero-subtitle">Preserving Cultural Glory & Fostering Student Welfare in the Delhi Capital Region</p>
+                
+                <div class="hero-actions">
+                    <a href="#portal-hub" class="btn btn-primary btn-glow"><i class="fa-solid fa-gamepad"></i> Explore Student Portal</a>
+                    <a href="#support" class="btn btn-secondary"><i class="fa-solid fa-phone"></i> Contact Mentors</a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-indicator" aria-label="Scroll Down">
+            <span class="mouse-icon">
+                <span class="wheel"></span>
+            </span>
+            <span class="scroll-text">Explore Roots</span>
+        </a>
+    </section>
+
+    <!-- About Section ("Our Roots & Identity") -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header center">
+                <span class="sub-heading">Roots & Heritage</span>
+                <h2 class="section-title">The Cradle of Mountain Civilizations</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <!-- Interactive Map & Data Tabs -->
+            <div class="tabs-container">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="jammu-tab">
+                        <i class="fa-solid fa-dharmachakra"></i> The Jammu Region (Duggar)
+                    </button>
+                    <button class="tab-btn" data-tab="himachal-tab">
+                        <i class="fa-solid fa-mountain-sun"></i> Himachal Pradesh (Dev Bhumi)
+                    </button>
+                </div>
+
+                <!-- Tab content for Jammu -->
+                <div class="tab-content active" id="jammu-tab">
+                    <div class="about-grid">
+                        <div class="about-text-content">
+                            <h3 class="tab-title-header"><i class="fa-solid fa-shield"></i> Duggar Land & Heritage</h3>
+                            <p class="lead-text">
+                                Jammu is the land of historical forts, ancient temples, and the brave Dogra community, stretching across majestic valleys and plains.
+                            </p>
+                            <div class="tab-data-box">
+                                <ul class="culture-points">
+                                    <li><strong><i class="fa-solid fa-map-location-dot"></i> Geographical Span:</strong> Represents 10 beautiful districts: Jammu, Samba, Kathua, Udhampur, Reasi (home of Vaishno Devi), Ramban, Doda, Kishtwar, Rajouri, and Poonch.</li>
+                                    <li><strong><i class="fa-solid fa-music"></i> Core Culture & Arts:</strong> Known for the vibrant Dogri language, Pahari miniature paintings, and folk dances like the <em>Kud</em> (ritual dance performed in honor of local deities to beats of Ransingha).</li>
+                                    <li><strong><i class="fa-solid fa-building-columns"></i> Historical Legacy:</strong> Ruled by the Jamwal Dogra Dynasty, who unified the region and built stunning architectural marvels like Mubarak Mandi Palace and Bahu Fort.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="about-media-content">
+                            <div class="map-card-wrapper">
+                                <div class="map-card">
+                                    <img src="assets/img_jammu_map.jpg" alt="Jammu District Map" class="jammu-map-img">
+                                    <div class="card-caption">
+                                        <h3>Illustrated Map of Jammu Region</h3>
+                                        <p>Stretching from the Tawi River to the Chenab, showcasing the 10 core mountain districts.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab content for Himachal Pradesh -->
+                <div class="tab-content" id="himachal-tab">
+                    <div class="about-grid">
+                        <div class="about-text-content">
+                            <h3 class="tab-title-header"><i class="fa-solid fa-snowflake"></i> Dev Bhumi - Land of Gods</h3>
+                            <p class="lead-text">
+                                Himachal Pradesh is a breathtaking alpine state defined by towering pine forests, roaring river gorges, and deep spiritual traditions.
+                            </p>
+                            <div class="tab-data-box">
+                                <ul class="culture-points">
+                                    <li><strong><i class="fa-solid fa-map-location-dot"></i> Geographical Span:</strong> Comprises 12 pristine districts: Chamba, Lahaul & Spiti, Kinnaur, Kullu, Mandi, Kangra, Shimla (Capital), Solan, Sirmaur, Bilaspur, Hamirpur, and Una.</li>
+                                    <li><strong><i class="fa-solid fa-users-line"></i> Traditions & Folk Dances:</strong> Famous for the world-renowned <strong>Nati Dance</strong> (a Guinness World Record holder group dance representing community harmony), the iconic Bushehri Cap, and hand-woven woolens.</li>
+                                    <li><strong><i class="fa-solid fa-landmark"></i> Spiritual & Scenic Landmarks:</strong> Features high altitude monasteries (like Key Monastery in Spiti), the ancient stone-cut Masroor Temples of Kangra, and massive snow ranges of the Dhauladhars and Pir Panjal.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="about-media-content">
+                            <div class="map-card-wrapper">
+                                <div class="map-card">
+                                    <img src="assets/img_himachal_map.png" alt="Himachal Pradesh Map" class="jammu-map-img">
+                                    <div class="card-caption">
+                                        <h3>Generated Map of Himachal Pradesh</h3>
+                                        <p>Tracing the high valleys from Chamba to Kinnaur and the historic ridge of Shimla.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-media-highlight">
+                        <div class="culture-highlight-card">
+                            <img src="assets/img_girls_traditional_dresses.jpg" alt="Himachali and Dogri Traditional Wear" class="highlight-full-img">
+                            <div class="highlight-caption">
+                                <h4>Our Pride: The Dogra & Himachali Traditional Attire</h4>
+                                <p>Our students proudly wearing colorful traditional dresses, woolen fabrics, and custom heavy silver jewelry (Gajjru, Chiri, and Chandrahaar) during cultural festivals in Delhi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spiritual & Deity Highlights -->
+            <div class="deity-highlight-banner animate-on-scroll">
+                <div class="deity-grid">
+                    <div class="deity-text-card">
+                        <span class="deity-icon-badge"><i class="fa-solid fa-om"></i> Spiritual Roots</span>
+                        <h3>Worship of Naag Devta (Vasuki Ananta)</h3>
+                        <p class="body-text">
+                            A highly defining element of Pahari spiritual heritage across both the Jammu hills (specifically Bhaderwah) and Himachal Pradesh is the deep reverence for **Naag Devta** (the serpent deities). 
+                        </p>
+                        <p class="body-text">
+                            Representing the raw forces of nature, glaciers, and springs, ancient black stone deities dressed in bright yellow and crimson silks (like Vasuki Nag) are worshipped in historical wood-carved temples, forming the core of local mountain folklore and festivals.
+                        </p>
+                    </div>
+                    <div class="deity-img-card">
+                        <img src="assets/img_naag_devta_deities.jpg" alt="Naag Devta Deities Temple Statues" class="deity-img">
+                        <div class="img-badge-overlay">Bhaderwah Temple Deities</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Traditional Musicians highlight -->
+            <div class="musicians-banner animate-on-scroll">
+                <div class="musicians-img-container">
+                    <img src="assets/img_musicians.jpg" alt="Traditional Musicians playing Ransingha" class="musicians-img">
+                </div>
+                <div class="musicians-text-card">
+                    <span class="music-icon-badge"><i class="fa-solid fa-music"></i></span>
+                    <h3>The Ransingha & Dogra Melodies</h3>
+                    <p>Our performances resonate with the sounds of traditional instruments like the Karnal and Ransingha (large curved brass horns) and the beats of the Dhol, signifying the royal heritage and celebratory spirit of the hills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Glory & Achievements Section -->
+    <section class="achievements-section" id="achievements">
+        <div class="container">
+            <div class="section-header center">
+                <span class="sub-heading">Legacy of Honor</span>
+                <h2 class="section-title">Our Path of Glory & Achievements</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <!-- Vertical Timeline (Checkerboard Grid filling empty spaces) -->
+            <div class="timeline-container">
+                
+                <!-- Timeline Line -->
+                <div class="timeline-line"></div>
+
+                <!-- Row 1: Rashtriya Kala Manch Debut -->
+                <div class="timeline-row animate-on-scroll">
+                    <!-- Left: Content Card -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"><i class="fa-solid fa-flag"></i></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">The Inception</div>
+                            <h3 class="timeline-title">Rashtriya Kala Manch Debut</h3>
+                            <p class="timeline-text">
+                                We began our journey with a powerful cultural display at the Rashtriya Kala Manch. Our members performed traditional group dances that instantly captivated the audience and established DDSA as a leading cultural voice for Jammu & Himachal students in Delhi.
+                            </p>
+                            <div class="timeline-image-container">
+                                <img src="assets/img_group_hall.jpg" alt="Rashtriya Kala Manch Team" class="timeline-img">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right: Flanking Showcase Box -->
+                    <div class="timeline-flank right">
+                        <div class="glass-flank-card">
+                            <div class="flank-img-container">
+                                <img src="assets/img_synchronized_nati_group.jpg" alt="Traditional Nati Performance Group" class="flank-card-img">
+                            </div>
+                            <div class="flank-card-content">
+                                <span class="flank-badge"><i class="fa-solid fa-music"></i> Performing Arts</span>
+                                <h4>Synchronized Mountain Nati</h4>
+                                <p>Our performing group displaying the synchronized coordination and vibrant energy of Himachali culture on university stages.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: 3rd Prize in Open Mic -->
+                <div class="timeline-row animate-on-scroll">
+                    <!-- Left: Flanking Showcase Box -->
+                    <div class="timeline-flank left">
+                        <div class="glass-flank-card">
+                            <div class="flank-img-container">
+                                <img src="assets/img_paddar_school_girls.jpg" alt="Paddar School Girls in Traditional Wear" class="flank-card-img">
+                            </div>
+                            <div class="flank-card-content">
+                                <span class="flank-badge"><i class="fa-solid fa-graduation-cap"></i> Cultural Outreach</span>
+                                <h4>Himalayan Cultural School</h4>
+                                <p>Preserving native dialects and dress styles across high-altitude schools in Gulabgarh Paddar, Kishtwar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right: Content Card -->
+                    <div class="timeline-item right">
+                        <div class="timeline-dot"><i class="fa-solid fa-trophy"></i></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">First Major Victory</div>
+                            <h3 class="timeline-title">3rd Prize in Open Mic Competition</h3>
+                            <p class="timeline-text">
+                                Representing our mountain heritage, we participated in a multi-state cultural Open Mic showcase, competing against prominent university groups. Our raw energy, traditional music, and expressive dance styles won us the **3rd Prize**.
+                            </p>
+                            <div class="timeline-image-container">
+                                <img src="assets/img_outdoor_dance.jpg" alt="Open Mic Dance Performance" class="timeline-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3: Himmilan at Ambedkar Centre -->
+                <div class="timeline-row animate-on-scroll">
+                    <!-- Left: Content Card -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"><i class="fa-solid fa-gavel"></i></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">National Stage Recognition</div>
+                            <h3 class="timeline-title">Featured at Himmilan</h3>
+                            <p class="timeline-text">
+                                We were invited to perform at <strong>Himmilan: Samaveshi Rajya Samvad (Himachal Pradesh Chapter)</strong> held at the prestigious <strong>Dr. Ambedkar International Centre</strong>. 
+                            </p>
+                            <blockquote class="praise-quote">
+                                <i class="fa-solid fa-quote-left"></i>
+                                Our performance was witnessed and praised by Chief Guest <strong>Shri Anurag Thakur Ji</strong> and <strong>Justice Sanjay Karol</strong> (Supreme Court), who personally praised our cultural preservation efforts.
+                                <i class="fa-solid fa-quote-right"></i>
+                            </blockquote>
+                            <div class="timeline-image-container">
+                                <img src="assets/img_himmilan_stage.jpg" alt="Himmilan Stage Performance Group" class="timeline-img">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right: Flanking Showcase Box -->
+                    <div class="timeline-flank right">
+                        <div class="glass-flank-card">
+                            <div class="flank-img-container">
+                                <img src="assets/img_traditional_nati_dancers.jpg" alt="Dogra Traditional Dress Performance" class="flank-card-img">
+                            </div>
+                            <div class="flank-card-content">
+                                <span class="flank-badge"><i class="fa-solid fa-om"></i> Folk Identity</span>
+                                <h4>Dogra Heritage Dance</h4>
+                                <p>Our girls showcasing royal colors and traditional Duggar attire during national youth conventions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 4: Bharat Mandapam Hackathon -->
+                <div class="timeline-row animate-on-scroll">
+                    <!-- Left: Flanking Showcase Box -->
+                    <div class="timeline-flank left">
+                        <div class="glass-flank-card">
+                            <div class="flank-img-container">
+                                <img src="assets/img_himachal_highway.jpg" alt="Scenic Himachali Highway to Mountains" class="flank-card-img">
+                            </div>
+                            <div class="flank-card-content">
+                                <span class="flank-badge"><i class="fa-solid fa-mountain"></i> Dev Bhumi Landscapes</span>
+                                <h4>Echoes of the Peaks</h4>
+                                <p>Drawing strength and values from the alpine hills of Himachal Pradesh and the Jammu range.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right: Content Card -->
+                    <div class="timeline-item right">
+                        <div class="timeline-dot"><i class="fa-solid fa-bolt"></i></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">Mass Audience Milestone</div>
+                            <h3 class="timeline-title">Main Performers at All India Hackathon</h3>
+                            <p class="timeline-text">
+                                At the spectacular <strong>Bharat Mandapam</strong>, the DDSA team performed as the <strong>Main Cultural Performers</strong> at the All India Hackathon organized by <em>Young India Innovates</em>.
+                            </p>
+                            <div class="highlight-box">
+                                <p><i class="fa-solid fa-users"></i> Played in front of a massive crowd of <strong>5000-6000 participants</strong> from all corners of India.</p>
+                                <p><i class="fa-solid fa-star"></i> Praised by distinguished ministers including <strong>Shri Manoj Tiwari Ji</strong> and Tourism Minister of Delhi <strong>Smt. Rekha Gupta Ji</strong>.</p>
+                            </div>
+                            <div class="timeline-image-container margin-top-sm">
+                                <img src="assets/img_kutumbakam_dancers.jpg" alt="G20 Vasudhaiva Kutumbakam Performers" class="timeline-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 5: Artemis Hospital Community Connect -->
+                <div class="timeline-row animate-on-scroll">
+                    <!-- Left: Content Card -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"><i class="fa-solid fa-heart-pulse"></i></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">Sunday, 19th April 2026</div>
+                            <h3 class="timeline-title">Dogra Community Connect & Health Awareness</h3>
+                            <p class="timeline-text">
+                                Partnering with <strong>Artemis Hospital, Gurugram</strong> and sponsored by <strong>J&K Bank</strong>, we conducted a successful cultural integration and Health Awareness Programme for doctors, patients, and the community.
+                            </p>
+                            <p class="timeline-text text-small">
+                                The event featured notable sessions led by medical chiefs <strong>Dr. Kapil D. Jamwal</strong> (Gastroenterology & Hepatology Chief) and <strong>Dr. Atul Sharma</strong> (Motility & Third Space Chief).
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Right: Flanking Showcase Box -->
+                    <div class="timeline-flank right">
+                        <div class="glass-flank-card">
+                            <div class="timeline-images-grid" style="height: 100%;">
+                                <img src="assets/img_artemis_stage.jpg" alt="Dogra Connect Stage" class="grid-img">
+                                <img src="assets/img_artemis_close.jpg" alt="Dogra Connect Performers" class="grid-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Impact & Volunteer Section -->
+    <section class="impact-section" id="impact">
+        <div class="container">
+            <div class="section-header center">
+                <span class="sub-heading">Service to Nation</span>
+                <h2 class="section-title">Our Social Impact & Campaigns</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="impact-grid">
+                
+                <!-- Card 1: Environment Day -->
+                <div class="impact-card glass-impact-card animate-on-scroll">
+                    <div class="impact-img-container">
+                        <img src="assets/img_environment_day.jpg" alt="World Environment Day Campaign">
+                    </div>
+                    <div class="impact-text-content">
+                        <span class="impact-date-tag">05 June 2026</span>
+                        <h3>World Environment Day Drive</h3>
+                        <p>
+                            Partnering with <strong>Mera Yuva Bharat (District New Delhi & South Delhi)</strong> under the Ministry of Youth Affairs, our students organized an ecological campaign and tree plantation drive at Pt. Madan Mohan Malviya Hospital, Malviya Nagar.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 2: TB Mukt Bharat -->
+                <div class="impact-card glass-impact-card animate-on-scroll">
+                    <div class="impact-img-container bg-crimson-gradient">
+                        <div class="impact-placeholder-text">
+                            <i class="fa-solid fa-hand-holding-medical"></i>
+                            <span>Nikshay Mitra Initiative</span>
+                        </div>
+                    </div>
+                    <div class="impact-text-content">
+                        <span class="impact-date-tag">Active Campaign</span>
+                        <h3>TB Mukt Bharat Abhiyan</h3>
+                        <p>
+                            DDSA active volunteers joined the national campaign for TB elimination. We participated in local awareness sessions, distributing educational pamphlets and mobilizing student donors to act as *Nikshay Mitras* supporting patients.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Experiential Learning -->
+                <div class="impact-card glass-impact-card animate-on-scroll">
+                    <div class="impact-img-container">
+                        <img src="assets/img_experiential_learning.jpg" alt="Experiential Learning Programme">
+                    </div>
+                    <div class="impact-text-content">
+                        <span class="impact-date-tag">Youth Leadership</span>
+                        <h3>Experiential Learning Programme (ELP)</h3>
+                        <p>
+                            Our student delegates joined the district youth workshops organized by *Mera Yuva Bharat* and the Ministry of Youth Affairs & Sports. The program provided leadership mentoring, public policy exposure, and civic action training.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Mountain Hub & Interactive Student Portal -->
+    <section class="portal-hub-section" id="portal-hub">
+        <div class="container">
+            <div class="section-header center">
+                <span class="sub-heading">Mountain Hub & Student Portal</span>
+                <h2 class="section-title">Interactive Culture & Student Tools</h2>
+                <p class="section-desc">Test out our functional music players, weather synchronizers, and college calculators.</p>
+                <div class="title-underline"></div>
+            </div>
+
+            <!-- Portal Grid containing the 4 widgets (Optimized Layout) -->
+            <div class="portal-widgets-grid">
+                
+                <!-- Widget 1: Folk Music Player -->
+                <div class="glass-widget-card audio-widget">
+                    <div class="widget-header">
+                        <i class="fa-solid fa-circle-play widget-icon"></i>
+                        <h3>Pahari & Dogra Folk Player</h3>
+                    </div>
+                    
+                    <div class="audio-player-ui">
+                        <div class="track-info">
+                            <div class="track-thumb">
+                                <i class="fa-solid fa-music"></i>
+                            </div>
+                            <div class="track-details">
+                                <h4 id="player-track-title">Chamba Kitni Door</h4>
+                                <p id="player-track-artist">Traditional Himachali Folk</p>
+                            </div>
+                        </div>
+
+                        <!-- Audio Wave Visualizer Animation -->
+                        <div class="audio-wave-container" id="audio-wave-container">
+                            <span class="wave-bar"></span>
+                            <span class="wave-bar"></span>
+                            <span class="wave-bar"></span>
+                            <span class="wave-bar"></span>
+                            <span class="wave-bar"></span>
+                            <span class="wave-bar"></span>
+                            <span class="wave-bar"></span>
+                            <span class="wave-bar"></span>
+                        </div>
+
+                        <!-- Progress timeline bar -->
+                        <div class="player-timeline">
+                            <span id="player-time-current">0:00</span>
+                            <div class="progress-bar-bg" id="progress-bar-bg">
+                                <div class="progress-bar-fill" id="progress-bar-fill"></div>
+                            </div>
+                            <span id="player-time-duration">3:12</span>
+                        </div>
+
+                        <!-- Player Controls -->
+                        <div class="player-controls">
+                            <button id="player-prev" class="control-btn" aria-label="Previous Track"><i class="fa-solid fa-backward-step"></i></button>
+                            <button id="player-play" class="control-btn play-btn" aria-label="Play"><i class="fa-solid fa-play"></i></button>
+                            <button id="player-next" class="control-btn" aria-label="Next Track"><i class="fa-solid fa-forward-step"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Widget 2: Weather Station -->
+                <div class="glass-widget-card weather-widget">
+                    <div class="widget-header">
+                        <i class="fa-solid fa-cloud-sun-rain widget-icon"></i>
+                        <h3>Mountain Weather Station</h3>
+                    </div>
+
+                    <div class="weather-ui">
+                        <div class="city-selector-row">
+                            <label for="weather-city-select" class="selector-label">Select Hub:</label>
+                            <select id="weather-city-select" class="weather-select">
+                                <option value="shimla">Shimla, HP</option>
+                                <option value="bhaderwah">Bhaderwah, JK</option>
+                                <option value="jammu">Jammu Tawi, JK</option>
+                                <option value="manali">Manali, HP</option>
+                                <option value="kishtwar">Kishtwar, JK</option>
+                            </select>
+                        </div>
+
+                        <div class="weather-display" id="weather-display">
+                            <div class="weather-temp-row">
+                                <div class="weather-icon-card">
+                                    <i class="fa-solid fa-snowflake" id="weather-main-icon"></i>
+                                </div>
+                                <div class="temp-val-card">
+                                    <div class="temp-val-wrapper">
+                                        <span class="temp-num" id="weather-temp">16</span><span class="temp-deg">°C</span>
+                                    </div>
+                                    <p class="weather-desc" id="weather-condition">Light Snowfall</p>
+                                </div>
+                            </div>
+
+                            <div class="weather-details-grid">
+                                <div class="weather-stat-box">
+                                    <span class="stat-lbl"><i class="fa-solid fa-wind"></i> Wind</span>
+                                    <strong class="stat-val" id="weather-wind">14 km/h</strong>
+                                </div>
+                                <div class="weather-stat-box">
+                                    <span class="stat-lbl"><i class="fa-solid fa-arrow-trend-up"></i> Altitude</span>
+                                    <strong class="stat-val" id="weather-altitude">2,206m</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button id="weather-sync" class="btn btn-primary btn-block btn-glow sync-btn">
+                            <i class="fa-solid fa-rotate"></i> Sync Live Station
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Widget 3: Word Dictionary -->
+                <div class="glass-widget-card vocab-widget">
+                    <div class="widget-header">
+                        <i class="fa-solid fa-language widget-icon"></i>
+                        <h3>Dogra & Pahari Word Explorer</h3>
+                    </div>
+
+                    <div class="vocab-ui">
+                        <p class="vocab-intro">Learn cultural words used in Jammu & Himachal valleys. Click to flip the card!</p>
+                        
+                        <div class="flashcard-wrapper">
+                            <div class="flashcard" id="flashcard">
+                                <!-- Card Front -->
+                                <div class="card-face card-front">
+                                    <div class="card-face-content">
+                                        <span class="lang-tag">Dogri</span>
+                                        <h3 id="vocab-word">Mithri</h3>
+                                        <p class="tap-hint"><i class="fa-solid fa-hand-pointer"></i> Tap to flip</p>
+                                    </div>
+                                </div>
+                                <!-- Card Back -->
+                                <div class="card-face card-back">
+                                    <div class="card-face-content">
+                                        <h4 class="meaning-lbl">Meaning:</h4>
+                                        <p class="meaning-text" id="vocab-meaning">"Sweet / Gentle" (Often used to describe the Dogri language: "Mithri Dogra Di Boli")</p>
+                                        <p class="tap-hint"><i class="fa-solid fa-hand-pointer"></i> Tap to flip back</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="vocab-navigation">
+                            <button id="vocab-prev" class="btn-vocab-nav" aria-label="Previous Word"><i class="fa-solid fa-circle-chevron-left"></i></button>
+                            <button id="vocab-next" class="btn-vocab-nav" aria-label="Next Word"><i class="fa-solid fa-circle-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Widget 4: DU College PG Finder -->
+                <div class="glass-widget-card college-widget">
+                    <div class="widget-header">
+                        <i class="fa-solid fa-graduation-cap widget-icon"></i>
+                        <h3>DU College PG & Travel Finder</h3>
+                    </div>
+
+                    <div class="college-ui">
+                        <div class="selector-row">
+                            <label for="college-select" class="selector-label">Select your DU College:</label>
+                            <select id="college-select" class="college-select">
+                                <option value="miranda">Miranda House (North Campus)</option>
+                                <option value="ramjas">Ramjas College (North Campus)</option>
+                                <option value="sbs">Shaheed Bhagat Singh (South Campus)</option>
+                                <option value="mln">Moti Lal Nehru (South Campus)</option>
+                                <option value="dbrac">Dr. B.R. Ambedkar College (East)</option>
+                            </select>
+                        </div>
+
+                        <div class="travel-display-card" id="travel-display-card">
+                            <div class="travel-stat-row">
+                                <div class="travel-info-box">
+                                    <span class="box-lbl"><i class="fa-solid fa-train-subway"></i> Nearest Metro</span>
+                                    <strong class="box-val" id="college-metro">Vishwavidyalaya</strong>
+                                    <p class="box-sub" id="college-line">Yellow Line</p>
+                                </div>
+                                <div class="travel-info-box">
+                                    <span class="box-lbl"><i class="fa-solid fa-house-user"></i> Best PG Locality</span>
+                                    <strong class="box-val" id="college-pg">Kamla Nagar / Hudson</strong>
+                                    <p class="box-sub" id="college-time">~10 mins travel time</p>
+                                </div>
+                            </div>
+
+                            <div class="volunteer-adviser-box">
+                                <div class="adviser-icon"><i class="fa-solid fa-user-shield"></i></div>
+                                <div class="adviser-text">
+                                    <h4>Senior Advisor assigned:</h4>
+                                    <p id="college-mentor">Yati Chaudhary (BA Philosophy)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Moments In Motion (Automatic Carousel Slideshow) -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-header center">
+                <span class="sub-heading">Moments in Motion</span>
+                <h2 class="section-title">DDSA Cultural Slideshow</h2>
+                <p class="section-desc">Experience the life of our students and the vibrance of our events through this automatic showcase.</p>
+                <div class="title-underline"></div>
+            </div>
+
+            <!-- Slideshow Container -->
+            <div class="slideshow-wrapper">
+                <div class="slideshow-container" id="slideshow-container">
+                    
+                    <!-- Slide 1 -->
+                    <div class="slide fade active">
+                        <img src="assets/img_old_age_home_visit.jpg" alt="Old Age Home Social Visit" class="slide-img">
+                        <div class="slide-caption-card">
+                            <span class="slide-tag">Social Service</span>
+                            <h3>Old Age Home Community Outreach</h3>
+                            <p>DDSA students visiting and spending value moments with elders, bringing smiles, warmth, and traditional folk music.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="slide fade">
+                        <img src="assets/img_naag_devta_deities.jpg" alt="Naag Devta Deities" class="slide-img">
+                        <div class="slide-caption-card">
+                            <span class="slide-tag">Culture</span>
+                            <h3>The Sacred Serpents of Bhaderwah</h3>
+                            <p>Beautiful black stone deities of Naag Devta (Vasuki Nag) dressed in bright yellow and crimson silks, representing Pahari worship folklore.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="slide fade">
+                        <img src="assets/img_environment_day.jpg" alt="World Environment Day Campaign" class="slide-img">
+                        <div class="slide-caption-card">
+                            <span class="slide-tag">Campaign</span>
+                            <h3>World Environment Day Drive</h3>
+                            <p>DDSA students gather with Mera Yuva Bharat banners advocating environmental protection at Pt. Madan Mohan Malviya Hospital.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="slide fade">
+                        <img src="assets/img_kutumbakam_dancers.jpg" alt="G20 Kutumbakam Performers" class="slide-img">
+                        <div class="slide-caption-card">
+                            <span class="slide-tag">Stage Show</span>
+                            <h3>Bharat Mandapam G20 Performers</h3>
+                            <p>Our student dancers performing traditional Kud and Nati folk dances in front of the Vasudhaiva Kutumbakam stage.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="slide fade">
+                        <img src="assets/img_girls_traditional_dresses.jpg" alt="Traditional Dress Showcase" class="slide-img">
+                        <div class="slide-caption-card">
+                            <span class="slide-tag">Heritage</span>
+                            <h3>Traditional Pahari Wear</h3>
+                            <p>Our girls showcasing heavy hand-crafted silver ornaments and royal dresses from Himachal and Jammu.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 6 -->
+                    <div class="slide fade">
+                        <img src="assets/img_du_campus_students.jpg" alt="DU Campus Students" class="slide-img">
+                        <div class="slide-caption-card">
+                            <span class="slide-tag">DU Life</span>
+                            <h3>Delhi University North Campus</h3>
+                            <p>DDSA core volunteers gathered on the lawns of the university, holding meetings under the national flag.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 7 -->
+                    <div class="slide fade">
+                        <img src="assets/img_dhauladhar_range.jpg" alt="Dhauladhar Mountain Range" class="slide-img">
+                        <div class="slide-caption-card">
+                            <span class="slide-tag">Himachal Landscape</span>
+                            <h3>The Snowy Dhauladhar Ridge</h3>
+                            <p>Beautiful panoramas of the snow-covered Dhauladhar mountain peaks stretching across Kangra district, Himachal.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 8 -->
+                    <div class="slide fade">
+                        <img src="assets/img_kinnaur_kailash.jpg" alt="Kinnaur Kailash Peak" class="slide-img">
+                        <div class="slide-caption-card">
+                            <span class="slide-tag">Mountain Peak</span>
+                            <h3>Kinnaur Kailash Mountain</h3>
+                            <p>A beautiful high-altitude peak of the Himalayas standing tall under a clear blue sky in Himachal Pradesh.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 9 -->
+                    <div class="slide fade">
+                        <img src="assets/img_himachal_highway.jpg" alt="Mountain Road in Himachal" class="slide-img">
+                        <div class="slide-caption-card">
+                            <span class="slide-tag">The Journey</span>
+                            <h3>The Alpine Mountain Highway</h3>
+                            <p>A scenic valley road leading students towards the towering snow-covered peaks of Himachal and Jammu.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 10 -->
+                    <div class="slide fade">
+                        <img src="assets/img_musicians.jpg" alt="Traditional Musicians playing Ransingha" class="slide-img">
+                        <div class="slide-caption-card">
+                            <span class="slide-tag">Heritage</span>
+                            <h3>The Royal Echo of the Mountains</h3>
+                            <p>Traditional musicians sounding the Ransingha horns to mark the beginning of our cultural campaigns in Delhi.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 11 -->
+                    <div class="slide fade">
+                        <img src="assets/img_himmilan_stage.jpg" alt="Samaveshi Rajya Samvad at Ambedkar Centre" class="slide-img">
+                        <div class="slide-caption-card">
+                            <span class="slide-tag">Himmilan</span>
+                            <h3>Dr. Ambedkar International Centre Stage</h3>
+                            <p>Our complete cultural crew in traditional dress representing the Himachal Chapter and Jammu heritage.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 12 -->
+                    <div class="slide fade">
+                        <img src="assets/img_university_plaza.jpg" alt="Students in front of DU University Plaza" class="slide-img">
+                        <div class="slide-caption-card">
+                            <span class="slide-tag">Campus Life</span>
+                            <h3>University Plaza, Delhi University</h3>
+                            <p>Our students gather at the heart of Delhi University's North Campus, wearing traditional Caps and winter wear.</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 13 -->
+                    <div class="slide fade">
+                        <img src="assets/img_artemis_close.jpg" alt="Stage Performers at Artemis Hospital" class="slide-img">
+                        <div class="slide-caption-card">
+                            <span class="slide-tag">Community</span>
+                            <h3>Dogra Community Connect & Health Awareness</h3>
+                            <p>Sharing our cultural dance and receiving blessings from doctors and the community at Artemis Hospital.</p>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Arrows -->
+                    <a class="prev" id="prev-slide" aria-label="Previous Slide">&#10094;</a>
+                    <a class="next" id="next-slide" aria-label="Next Slide">&#10095;</a>
+                </div>
+
+                <!-- Slider Dots/Indicators -->
+                <div class="slideshow-dots" id="slideshow-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <span class="dot" data-slide="3"></span>
+                    <span class="dot" data-slide="4"></span>
+                    <span class="dot" data-slide="5"></span>
+                    <span class="dot" data-slide="6"></span>
+                    <span class="dot" data-slide="7"></span>
+                    <span class="dot" data-slide="8"></span>
+                    <span class="dot" data-slide="9"></span>
+                    <span class="dot" data-slide="10"></span>
+                    <span class="dot" data-slide="11"></span>
+                    <span class="dot" data-slide="12"></span>
+                </div>
+            </div>
+            
+            <!-- Tall Garden Collage Highlight -->
+            <div class="garden-collage-wrapper">
+                <div class="collage-card">
+                    <div class="collage-text">
+                        <h3><i class="fa-solid fa-people-group"></i> DDSA Student Meets & Picnics</h3>
+                        <p>We organize monthly picnics, heritage walks, and campus meets in DU parks. It offers a warm home away from home, building deep friendships and supporting academic peer mentoring.</p>
+                    </div>
+                    <div class="collage-img-container">
+                        <img src="assets/img_garden_collage.jpg" alt="DU Garden Group Meets" class="collage-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Support & Welfare Hub -->
+    <section class="support-section" id="support">
+        <div class="container">
+            
+            <!-- CUET UG Help Desk Details Panel -->
+            <div class="cuet-banner-wrapper">
+                <div class="cuet-grid">
+                    <div class="cuet-poster-card">
+                        <img src="assets/img_cuet_help_desk_banner.jpg" alt="CUET UG Admission Help Desk Poster" class="cuet-poster-img">
+                    </div>
+                    <div class="cuet-info-text">
+                        <span class="badge-pill gold-badge"><i class="fa-solid fa-phone"></i> Admission Helpline</span>
+                        <h2>CUET UG Admission Help Desk</h2>
+                        <p class="text-white-opacity">
+                            Delhi Duggar Student Association (DDSA) has launched a dedicated student admissions helpline. Feel free to contact our senior student mentors in various Delhi University colleges for help regarding forms, college preferences, syllabus, and admission cutoffs:
+                        </p>
+                        
+                        <div class="mentors-grid">
+                            
+                            <!-- Mentor 1 -->
+                            <div class="mentor-contact-card">
+                                <h4>Yati Chaudhary</h4>
+                                <p class="mentor-college">BA (Hons) Philosophy</p>
+                                <p class="mentor-inst">Miranda House, DU</p>
+                                <a href="tel:9953717579" class="mentor-phone"><i class="fa-solid fa-phone"></i> 99537-17579</a>
+                            </div>
+
+                            <!-- Mentor 2 -->
+                            <div class="mentor-contact-card">
+                                <h4>Urmiya Sharma</h4>
+                                <p class="mentor-college">BA (Hons) English</p>
+                                <p class="mentor-inst">Shaheed Bhagat Singh College</p>
+                                <a href="tel:7006769806" class="mentor-phone"><i class="fa-solid fa-phone"></i> 70067-69806</a>
+                            </div>
+
+                            <!-- Mentor 3 -->
+                            <div class="mentor-contact-card">
+                                <h4>Porshia Bisht</h4>
+                                <p class="mentor-college">BA (Hons) Political Science</p>
+                                <p class="mentor-inst">Moti Lal Nehru College</p>
+                                <a href="tel:9186005955" class="mentor-phone"><i class="fa-solid fa-phone"></i> 91860-05955</a>
+                            </div>
+
+                            <!-- Mentor 4 -->
+                            <div class="mentor-contact-card">
+                                <h4>Lakshay Jandial</h4>
+                                <p class="mentor-college">BA (Hons) Pol Sci (Passout)</p>
+                                <p class="mentor-inst">Shaheed Bhagat Singh College</p>
+                                <a href="tel:9797156772" class="mentor-phone"><i class="fa-solid fa-phone"></i> 97971-56772</a>
+                            </div>
+
+                            <!-- Mentor 5 -->
+                            <div class="mentor-contact-card">
+                                <h4>Sanchit Chaudhary</h4>
+                                <p class="mentor-college">B.Com Program</p>
+                                <p class="mentor-inst">Dr. Bhim Rao Ambedkar College</p>
+                                <a href="tel:9953395983" class="mentor-phone"><i class="fa-solid fa-phone"></i> 99533-95983</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="support-wrapper animate-on-scroll">
+                <div class="support-info-panel">
+                    <span class="sub-heading text-white">Student Welfare Hub</span>
+                    <h2 class="text-white">Are You Migrating to Delhi? We are Here to Help!</h2>
+                    <p class="text-light">
+                        Migrating from the peaceful towns of Jammu & Himachal Pradesh to the bustling capital of Delhi can be overwhelming. DDSA is dedicated to making this transition smooth and supportive for you.
+                    </p>
+                    
+                    <ul class="welfare-services">
+                        <li>
+                            <div class="service-icon"><i class="fa-solid fa-house-chimney"></i></div>
+                            <div class="service-text">
+                                <h4>Accommodation Assistance</h4>
+                                <p>We help you find PG accommodation, flatshares, and student hostels in North Campus, South Campus, and nearby student sectors.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="service-text">
+                                <h4>Academic Guidance & Admissions</h4>
+                                <p>Connect with seniors from your college to clear queries regarding courses, library resources, and DU registration guidelines.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-icon"><i class="fa-solid fa-people-group"></i></div>
+                            <div class="service-text">
+                                <h4>Cultural & Community Engagement</h4>
+                                <p>Participate in our national stage shows, develop leadership skills, and stay connected with our rich native traditions.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="support-form-panel">
+                    <div class="glass-form-card">
+                        <h3>Join DDSA / Request Assistance</h3>
+                        <p class="form-desc">Fill out this secure form and a student volunteer will get back to you within 24 hours.</p>
+                        
+                        <form id="student-support-form" class="student-form">
+                            <div class="form-group">
+                                <label for="student-name">Full Name <span class="required">*</span></label>
+                                <input type="text" id="student-name" required placeholder="Enter your full name">
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="student-phone">Phone Number <span class="required">*</span></label>
+                                    <input type="tel" id="student-phone" required placeholder="10-digit mobile number">
+                                </div>
+                                <div class="form-group">
+                                    <label for="student-email">Email Address <span class="required">*</span></label>
+                                    <input type="email" id="student-email" required placeholder="yourname@gmail.com">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="student-state">Home State <span class="required">*</span></label>
+                                    <select id="student-state" required>
+                                        <option value="" disabled selected>Select home state</option>
+                                        <option value="Jammu & Kashmir">Jammu & Kashmir</option>
+                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="student-college">Delhi College/Uni</label>
+                                    <input type="text" id="student-college" placeholder="e.g. Ramjas College, DU">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="support-type">Type of Assistance Needed <span class="required">*</span></label>
+                                <select id="support-type" required>
+                                    <option value="" disabled selected>Select requirement</option>
+                                    <option value="Accommodation">Accommodation Hunt</option>
+                                    <option value="Admissions">College Admission / Syllabus Info</option>
+                                    <option value="Join Society">Join DDSA Performing Crew</option>
+                                    <option value="General Query">General Support / Mentorship</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="student-message">Describe your query <span class="required">*</span></label>
+                                <textarea id="student-message" rows="4" required placeholder="How can we help you? Please describe details about your college or accommodation location preferences..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block btn-glow">Submit Request</button>
+                            
+                            <div id="form-feedback" class="form-feedback"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Partners Info -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- Instagram Card -->
+                <div class="instagram-card-col">
+                    <div class="glass-instagram-card">
+                        <div class="insta-header">
+                            <div class="insta-logo-avatar">
+                                <img src="assets/logo_ddsa.jpg" alt="DDSA Avatar">
+                            </div>
+                            <div class="insta-user-meta">
+                                <h4>ddsa.official_</h4>
+                                <p>Delhi Duggar Student Association</p>
+                            </div>
+                            <a href="https://www.instagram.com/ddsa.official_/" target="_blank" class="btn-insta-follow">Follow</a>
+                        </div>
+                        
+                        <div class="insta-stats-row">
+                            <div class="insta-stat"><strong>42</strong> posts</div>
+                            <div class="insta-stat"><strong>2,850</strong> followers</div>
+                            <div class="insta-stat"><strong>156</strong> following</div>
+                        </div>
+
+                        <div class="insta-grid-mockup">
+                            <div class="insta-post-mock"><img src="assets/img_musicians.jpg" alt="Insta Post 1"></div>
+                            <div class="insta-post-mock"><img src="assets/img_himmilan_stage.jpg" alt="Insta Post 2"></div>
+                            <div class="insta-post-mock"><img src="assets/img_university_plaza.jpg" alt="Insta Post 3"></div>
+                            <div class="insta-post-mock"><img src="assets/img_outdoor_dance.jpg" alt="Insta Post 4"></div>
+                            <div class="insta-post-mock"><img src="assets/img_group_hall.jpg" alt="Insta Post 5"></div>
+                            <div class="insta-post-mock"><img src="assets/img_jammu_map.jpg" alt="Insta Post 6"></div>
+                        </div>
+                        
+                        <div class="insta-footer-desc">
+                            <p><i class="fa-brands fa-instagram"></i> Follow us for creative Reels, event schedules, and live cultural snippets!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact & Location Info -->
+                <div class="contact-info-col">
+                    <span class="sub-heading">Get in Touch</span>
+                    <h2>Contact our Core Committee</h2>
+                    <p class="contact-desc">
+                        Whether you are a student seeking help, a college cultural coordinator, or a community elder wanting to sponsor our events, feel free to reach out to us.
+                    </p>
+
+                    <div class="info-list">
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="info-text">
+                                <h4>Email Address</h4>
+                                <p><a href="mailto:info.ddsa.official@gmail.com">info.ddsa.official@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="info-text">
+                                <h4>Helpline Numbers</h4>
+                                <p>Jammu Support: +91 94191 XXXXX<br>Himachal Support: +91 98160 XXXXX</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="info-text">
+                                <h4>Headquarters Location</h4>
+                                <p>University Plaza, North Campus, Delhi University, New Delhi, 110007</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sponsors-badge-container">
+                        <p class="badge-title">Our Affiliations & Partners</p>
+                        <div class="sponsors-row">
+                            <div class="sponsor-card">
+                                <img src="assets/logo_youth_affairs.jpg" alt="Ministry of Youth Affairs">
+                                <span class="sponsor-text">Ministry of Youth Affairs</span>
+                            </div>
+                            <div class="sponsor-card">
+                                <img src="assets/logo_my_bharat.jpg" alt="MY Bharat">
+                                <span class="sponsor-text">MY Bharat</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand-info">
+                    <img src="assets/logo_ddsa.jpg" alt="DDSA Logo" class="footer-logo">
+                    <h3>Delhi Duggar Student Association</h3>
+                    <p>Dedicated to fostering unity, preserving cultural heritage, and ensuring student welfare in the Delhi Capital Region.</p>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Quick Navigation</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">Our Roots</a></li>
+                        <li><a href="#achievements">Glory & Achievements</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#support">Student Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social-col">
+                    <h4>Connect on Socials</h4>
+                    <p>Stay updated with our posts, notices, and registration portals.</p>
+                    <div class="social-icon-row">
+                        <a href="https://www.instagram.com/ddsa.official_/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="mailto:info.ddsa.official@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Delhi Duggar Student Association (DDSA). All Rights Reserved.</p>
+                <p>Designed with cultural pride from Jammu & Himachal Pradesh.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+</html>

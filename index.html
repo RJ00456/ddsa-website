@@ -5,8 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delhi Duggar Student Association | DDSA</title>
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Official website of the Delhi Duggar Student Association (DDSA). Promoting the rich culture of Jammu & Himachal Pradesh and supporting students in Delhi. Explore our achievements, cultural heritage, and student welfare hub.">
-    <meta name="keywords" content="DDSA, Delhi Duggar Student Association, Jammu, Himachal Pradesh, Dogra Culture, Duggar, Student Association Delhi, Himmilan, Bharat Mandapam, Dogra Community Connect">
+    <meta name="description" content="Official website of the Delhi Duggar Student Association (DDSA). Promoting the rich culture of Jammu & Himachal Pradesh and supporting students in Delhi.">
+    <meta name="keywords" content="DDSA, Delhi Duggar Student Association, Jammu, Himachal Pradesh, Dogra Culture, Duggar, Student Association Delhi, Himmilan, Bharat Mandapam">
+    <link rel="canonical" href="https://delhiduggarstudentassociation.netlify.app/">
+
+    <!-- Open Graph — WhatsApp / Instagram / Facebook Link Preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://delhiduggarstudentassociation.netlify.app/">
+    <meta property="og:title" content="DDSA — Delhi Duggar Student Association">
+    <meta property="og:description" content="Promoting the rich culture of Jammu & Himachal Pradesh and supporting students in Delhi. Join us, explore our achievements, and celebrate our heritage! 🏔️">
+    <meta property="og:image" content="https://delhiduggarstudentassociation.netlify.app/assets/img_himmilan_stage.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:site_name" content="DDSA Delhi">
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DDSA — Delhi Duggar Student Association">
+    <meta name="twitter:description" content="Promoting the rich culture of Jammu & Himachal Pradesh and supporting students in Delhi.">
+    <meta name="twitter:image" content="https://delhiduggarstudentassociation.netlify.app/assets/img_himmilan_stage.jpg">
+
+    <!-- PWA Support — Install on Phone Home Screen -->
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#dc143c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="DDSA Delhi">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -960,24 +986,24 @@
                         <form id="student-support-form" class="student-form">
                             <div class="form-group">
                                 <label for="student-name">Full Name <span class="required">*</span></label>
-                                <input type="text" id="student-name" required placeholder="Enter your full name">
+                                <input type="text" id="student-name" name="full_name" required placeholder="Enter your full name" autocomplete="name">
                             </div>
                             
                             <div class="form-row">
                                 <div class="form-group">
                                     <label for="student-phone">Phone Number <span class="required">*</span></label>
-                                    <input type="tel" id="student-phone" required placeholder="10-digit mobile number">
+                                    <input type="tel" id="student-phone" name="phone" required placeholder="10-digit mobile number" autocomplete="tel">
                                 </div>
                                 <div class="form-group">
                                     <label for="student-email">Email Address <span class="required">*</span></label>
-                                    <input type="email" id="student-email" required placeholder="yourname@gmail.com">
+                                    <input type="email" id="student-email" name="email" required placeholder="yourname@gmail.com" autocomplete="email">
                                 </div>
                             </div>
 
                             <div class="form-row">
                                 <div class="form-group">
                                     <label for="student-state">Home State <span class="required">*</span></label>
-                                    <select id="student-state" required>
+                                    <select id="student-state" name="home_state" required>
                                         <option value="" disabled selected>Select home state</option>
                                         <option value="Jammu & Kashmir">Jammu & Kashmir</option>
                                         <option value="Himachal Pradesh">Himachal Pradesh</option>
@@ -986,13 +1012,13 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="student-college">Delhi College/Uni</label>
-                                    <input type="text" id="student-college" placeholder="e.g. Ramjas College, DU">
+                                    <input type="text" id="student-college" name="college" placeholder="e.g. Ramjas College, DU">
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="support-type">Type of Assistance Needed <span class="required">*</span></label>
-                                <select id="support-type" required>
+                                <select id="support-type" name="assistance_type" required>
                                     <option value="" disabled selected>Select requirement</option>
                                     <option value="Accommodation">Accommodation Hunt</option>
                                     <option value="Admissions">College Admission / Syllabus Info</option>
@@ -1003,7 +1029,7 @@
 
                             <div class="form-group">
                                 <label for="student-message">Describe your query <span class="required">*</span></label>
-                                <textarea id="student-message" rows="4" required placeholder="How can we help you? Please describe details about your college or accommodation location preferences..."></textarea>
+                                <textarea id="student-message" name="message" rows="4" required placeholder="How can we help you? Please describe details about your college or accommodation location preferences..."></textarea>
                             </div>
 
                             <button type="submit" class="btn btn-primary btn-block btn-glow">Submit Request</button>

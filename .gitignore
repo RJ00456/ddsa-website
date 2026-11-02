@@ -1,0 +1,21 @@
+# .gitignore for DDSA Website
+# Environment variables — NEVER commit these to GitHub
+.env
+.env.local
+.env.production
+
+# Node modules (if any)
+node_modules/
+
+# Netlify build cache
+.netlify/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor temp files
+*.swp
+*.swo
+.vscode/settings.json
